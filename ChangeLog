@@ -1,0 +1,28 @@
+2014-03-22 Christophe Monard  <contact@cmonard.fr>
+	* Code refactor for the TYPO3 V6.
+	* Not compatible with older version < 6.0.0
+
+2013-06-03 Christophe Monard  <contact@cmonard.fr>
+	* Sonar test corrections
+	* Members scope definition
+
+2013-06-03 Christophe Monard  <contact@cmonard.fr>
+	* Sonar test corrections
+
+2011-02-08 Christophe Monard  <contact@cmonard.fr>
+	* small corrections
+	* code cleaning
+	* added possibility to declare static (or CDN) domain for image ressource, just declare config.staticDomain
+	
+2011-02-08 Christophe Monard  <contact@cmonard.fr>
+	* Tested for TYPO3 4.5
+	* Add footer param for JS inclusion
+
+2011-02-08 Christophe Monard  <contact@cmonard.fr>
+	* TYPO3 version dependancy change
+
+2011-01-25 Christophe Monard  <contact@cmonard.fr>
+	* Change default lifetime to 7 days
+
+2010-09-03 Christophe Monard  <contact@cmonard.fr>
+	* initial code release

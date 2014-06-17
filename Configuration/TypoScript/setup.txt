@@ -1,0 +1,36 @@
+plugin.tx_cmdsrcinc {
+	activeList = {$plugin.tx_cmdsrcinc.activeList}
+	src {
+		ga {
+			js = 1
+			js {
+				url = http://www.google-analytics.com/analytics.js
+				cache = 1
+				cache_lifetime = 86400
+				toFooter = 1
+			}
+		}
+		t3jquery {
+			js = 1
+			js.subtype = t3jquery
+		}
+		sexyBookmark {
+			js = 1
+			js.url = EXT:sexybookmarks/res/jquery/js/sexybookmarks.js
+			css = 1
+			css.url = EXT:sexybookmarks/res/css/style.css
+			css.order = 30
+		}
+		websnapr {
+			js = 1
+			js.url = http://bubble.websnapr.com/{$plugin.tx_cmdsrcinc.websnapr}/
+		}
+		globalStyle {
+			css = 1
+			css.url = fileadmin/global.css
+			css.order = 10
+		}
+	}
+}
+
+page.220282 = < plugin.tx_cmdsrcinc

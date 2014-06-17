@@ -1,0 +1,4 @@
+plugin.tx_cmdsrcinc {
+	activeList = ga, t3jquery, sexyBookmark, websnapr, globalStyle
+	websnapr = xxx/xxx
+}
